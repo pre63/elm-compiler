@@ -1,0 +1,7 @@
+packages: .
+
+source-repository-package
+  type: git
+  location: https://github.com/pre63/llvm-hs.git
+  branch: llvm-12
+  subdir: llvm-hs-pure

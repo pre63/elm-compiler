@@ -25,13 +25,14 @@ Build-type: Simple
 
 source-repository head
     type:     git
-    location: git://github.com/elm/compiler.git
+    location: git://github.com/pre63/compiler.git
 
 
 Flag dev {
   Description: Turn off optimization and make warnings errors
   Default: False
 }
+
 
 
 Executable elm
@@ -232,4 +233,5 @@ Executable elm
         unordered-containers,
         utf8-string,
         vector,
-        zip-archive
+        zip-archive,
+        llvm-hs-pure
